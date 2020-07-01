@@ -1,0 +1,44 @@
+div.row {
+    div.login-card {
+        background-color: #fff;
+        div.logo {
+            display: flex;
+            padding: 0.2em;
+            justify-content: center;
+            img {
+                display: inline-block;
+                width: 35px;
+                height: 35px;
+            }
+        }
+        form {
+            padding: 0.5em;
+            a {
+                display: block;
+                margin: 0.5em 0;
+                text-decoration: none;
+            }
+            .input-wrapper {
+                margin: 0.5em 0;
+                padding: 0.5em;
+                input {
+                    display: block;
+                    width: 100%;
+                    height: 2.5em;
+                    border: 1px solid #dbdbdb;
+                    padding: 0.5em 1em;
+                    border-radius: 0.2rem;
+                }
+                input:focus {
+                    border: 1px solid  rgba(30, 143, 255, 0.5);
+                    box-shadow: 0px 0px 5px rgba(30, 143, 255, 0.5);
+                }
+                input[type=submit] {
+                    background-color: dodgerblue;
+                    color: #fff;
+                    border: none;
+                }
+            }
+        }
+    }
+}

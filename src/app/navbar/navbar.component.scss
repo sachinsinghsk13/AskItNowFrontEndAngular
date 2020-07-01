@@ -1,0 +1,93 @@
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5em 1.5em;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    div.logo {
+        display: flex;
+        align-items: center;
+        a {
+            text-decoration: none;
+            color: #383e56;
+            img {
+                display: inline-block;
+                width: 35px;
+                height: 35px;
+                margin: 0 1em;
+            }
+            span {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                font-size: 1.3rem;
+            }
+        }
+
+        img.ham-burger-menu {
+            cursor: pointer;
+        }
+    }
+
+    div.navbar {
+        padding: 0 1em;
+
+        a {
+            padding: 0.4em 1em;
+            text-decoration: none;
+            color: #383e56;
+            border-radius: 30px;
+        }
+        a:hover {
+            background-color: #eee;
+            color: black;
+        }
+    }
+    div.right-navbar {
+        border-radius: 5em;
+        border: 2px solid #eee;
+        padding: 0.2em 1em;
+        a {
+            text-decoration: none;
+            img {
+                display: inline-block;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+            }
+            span {
+                padding: 0 0.2em;
+                color: #383e56;
+            }
+        }
+    }
+
+    div.right-navbar:hover {
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+   
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
