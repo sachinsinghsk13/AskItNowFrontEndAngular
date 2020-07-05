@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faRedoAlt } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-questions-list',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./questions-list.component.scss']
 })
 export class QuestionsListComponent implements OnInit {
-
+  refreshIcon = faRedoAlt;
   constructor() { }
 
   ngOnInit(): void {

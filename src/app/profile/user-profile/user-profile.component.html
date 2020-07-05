@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row shadow-sm rounded">
+        <div class="col-12">
+            <div class="user-info-1">
+                <img src="../../../assets/dp.jpeg" alt="">
+                <div class="name-container">
+                    <p class="name">Ashwani Chauhan</p>
+                    <p class="username text-muted">@chauhangirl19</p>
+                </div>
+            </div>
+           
+            <div class="user-info-2">
+                <p class="gender"> <fa-icon [icon]="femaleIcon"></fa-icon> Female</p>
+                <p class="birthday"><fa-icon [icon]="cakeIcon"></fa-icon> 13 Mar, 1998</p>
+                <p class="profession"><fa-icon [icon]="adminIcon"></fa-icon> Java Developer</p>
+            </div>
+            <div class="user-info-bio">
+                <p class="bio">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab laboriosam dolorem sunt id itaque expedita odio, est ullam animi architecto maiores accusantium similique asperiores odit quo debitis enim sit doloribus.
+                </p>
+            </div>
+            <div class="user-action-bar">
+              <a routerLink="questions" routerLinkActive="active">Questions</a>
+              <a routerLink="answers" routerLinkActive="active">Answers</a>
+            </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

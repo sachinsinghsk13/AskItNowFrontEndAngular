@@ -1,0 +1,48 @@
+div.row {
+    background-color: #fff;
+    margin: 1em 0;
+    div.col {
+        div.user-info {
+            display: flex;
+            align-items: center;
+            margin: 0.4em 0;
+            img.display-picture {
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                margin: 0 0.5em;
+            }
+            div.name-container {
+                display: flex;
+                flex-direction: column;
+                span.name {
+                    font-size: 1em;
+                    margin: 0;
+                }
+                span.username {
+                    font-size: 0.8em;
+                    margin: 0;
+                }
+            }
+        }
+        p.answer-body {
+            margin: 0;
+        }
+        div.action-bar {
+            display: flex;
+            color: #6c757d;
+            div.action {
+                margin: 0 0.4em;
+                cursor: pointer;
+                span {
+                    display: inline-block;
+                    font-size: 1em;
+                    padding: 0.5em;
+                }
+            }
+            div.action:hover {
+                color: rgb(54, 58, 64);
+            }
+        }
+    }
+}

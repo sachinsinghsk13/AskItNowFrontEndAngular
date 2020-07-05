@@ -9,17 +9,14 @@ div.container {
                     a {
                         display: inline-block;
                         width: 100%;
-                        font-size: 1.1em;
+                        font-size: 1em;
                         padding: 0.1em 1.5em;
                         text-decoration: none;
                         color: #333;
-                        border-radius: 5em;
                     }
 
                     a:hover, a.activated {
-                        color: white;
-                        background-color: dodgerblue;
-                        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+                        background-color: rgb(29, 161, 242, 0.2);
                     }
                 }
             }

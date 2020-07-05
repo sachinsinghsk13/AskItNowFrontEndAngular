@@ -9,11 +9,11 @@
                 <input type="text" placeholder="Full Name" autofocus>
             </div>
             <div class="input-wrapper gender-selector">
-                <div class="gender-value selected">Male</div>
-                <div class="gender-value">Female</div>
+                <div class="gender-value male" [class.selected]="maleSelected" (click)="selectMale()"> <fa-icon [icon]="maleIcon" ></fa-icon> Male</div>
+                <div class="gender-value female" [class.selected]="!maleSelected" (click)="selectFemale()"> <fa-icon [icon]="femaleIcon" ></fa-icon> Female</div>
             </div>
             <div class="input-wrapper">
-                <input type="text" placeholder="Email" >
+                <input type="text" placeholder="Email">
             </div>
             <div class="input-wrapper">
                 <input type="text" placeholder="Username">

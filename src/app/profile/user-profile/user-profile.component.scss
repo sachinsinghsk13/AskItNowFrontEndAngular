@@ -1,0 +1,66 @@
+div.container {
+    div.row {
+        background-color: #fff;
+        padding: 0.5em;
+        margin: 1em 0;
+        div.col-12 {
+            div.user-info-1 {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                img {
+                    width: 65px;
+                    height: 65px;
+                    border-radius: 50%;
+                    margin: 0.5em;
+                }
+                div.name-container {
+                    display: flex;
+                    flex-direction: column;
+                    margin: -0.8em 0.5em 0 0;
+                    p.name {
+                        font-size: 1.5em;
+                        margin: 0;
+                    }
+                    p.username {
+                        margin: 0;
+                        font-size: 0.9em;
+                    }
+                }
+            }
+            div.user-info-2 {
+                display: flex;
+                justify-content: flex-start;
+                margin: 0.5em 0;
+                p {
+                    padding: 0 1.5em;
+                    margin: 0 0.8em;
+                    color: rgb(54, 58, 64);
+                    font-weight: bold;
+                }
+            }
+
+            div.user-info-bio {
+                margin: 1em 0;
+            }
+
+            div.user-action-bar {
+                margin: 0.2em 0;
+                a {
+                    padding: 0.5em 2em;
+                    font-weight: bold;
+                    color: rgb(101, 119, 134);
+                    text-decoration: none;
+                    box-sizing: border-box;
+                }
+                a:hover {
+                    background-color:  rgb(29,162,242,0.1);;
+                }
+                a.active {
+                    color: rgb(29,162,242);
+                    border-bottom: 2px solid rgb(29,162,242);
+                }
+            }
+        }
+    }
+}

@@ -29,8 +29,12 @@ div.row {
                     color: rgb(73, 73, 73);
                     border: 1px solid #dbdbdb;
                 }
-                div.gender-value.selected {
+                div.gender-value.male.selected {
                     background-color: dodgerblue;
+                    color: white;
+                }
+                div.gender-value.female.selected {
+                    background-color: rgb(226, 88, 162);
                     color: white;
                 }
                 div.gender-value:hover {

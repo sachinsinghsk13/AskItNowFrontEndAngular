@@ -1,0 +1,34 @@
+<div class="row shadow-sm rounded">
+    <div class="col">
+        <div class="user-info">
+            <div class="user-info">
+                <img src="../../assets/0.jpeg" alt="" class="display-picture">
+                <div class="name-container">
+                    <span class="name">Akanksha Sharma</span>
+                    <span class="username"><a href="#" class="text-decoration-none">@akanksha16 </a> &bull; <span
+                            class="text-muted">12 hour ago</span></span>
+                </div>
+            </div>
+        </div>
+        <p class="answer-body">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita eius deleniti vero voluptatum amet porro
+            excepturi exercitationem unde fuga modi distinctio, error iste ullam ad sapiente, nobis neque quae.
+            Obcaecati.
+        </p>
+        <div class="action-bar">
+            <div class="action" title="Like">
+                <fa-icon [icon]="thumbsUpIcon"></fa-icon>
+                <span>12</span>
+            </div>
+            <div class="action" title="Unlike">
+                <fa-icon [icon]="thumbsDownIcon"></fa-icon>
+                <span>34</span>
+            </div>
+            <div class="action" title="Comment" (click)="toggleComments()">
+                <fa-icon [icon]="commentIcon"></fa-icon>
+                <span>6</span>
+            </div>
+        </div>
+        <app-comment *ngIf="showComments"></app-comment>
+    </div>
+</div>

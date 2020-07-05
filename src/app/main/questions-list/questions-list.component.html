@@ -1,0 +1,37 @@
+<div class="container">
+   <div class="row">
+      <div class="col p-1">
+         <button class="btn btn-success btn-sm mx-2">Refresh</button>
+         <button class="btn btn-primary btn-sm mx-2">Ask Question</button>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-12">
+         <h4>Ask Question</h4>
+         <div class="form-row my-2">
+            <div class="col-10">
+               <input type="text" placeholder="What's Your Question?" class="form-control">
+            </div>
+            <div class="col-2">
+               <select class="custom-select">
+                  <option value="">Food</option>
+                  <option value="">Health</option>
+                  <option value="">Movies</option>
+               </select>
+            </div>
+         </div>
+         <div class="form-row my-2">
+            <div class="col-12">
+               <input type="text" placeholder="Any Detailed Information" class="form-control">
+            </div>
+         </div>
+         <div class="form-row my-2">
+            <div class="col-12">
+               <button class="btn btn-primary btn-sm mr-2">Post Question</button>
+               <button class="btn btn-secondary btn-sm ml-2">Cancel</button>
+            </div>
+         </div>
+      </div>
+   </div>
+   <app-question-item></app-question-item>
+</div>

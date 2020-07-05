@@ -1,0 +1,30 @@
+div.row {
+    background-color: #fff;
+    margin: 0.5em;
+    padding: 0.5em;
+    a.question-title {
+        font-size: 1.3em;
+        text-decoration: none;
+        color: rgb(52, 58, 64);
+    }
+    a.question-title:hover {
+        color: dodgerblue;
+    }
+    p.question-body {
+        font-size: 0.8em;
+        margin: 0.5em 0;
+    }
+
+    div.stat {
+        font-size: 0.9em;
+        color: #234343;
+        span {
+            a {
+                text-decoration: none;
+            }
+        }
+        span.attach-image-link {
+            float: right;
+        }
+    }
+}

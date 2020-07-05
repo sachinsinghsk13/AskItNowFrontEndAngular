@@ -1,0 +1,56 @@
+div.container {
+    padding: 0.5em;
+    div.row {
+        background-color: #fff;
+        padding: 0.5em;
+        margin: 0.5em;
+        div.col {
+            div.user-info {
+                display: flex;
+                align-items: center;
+                img.display-picture {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    margin: 0 0.5em;
+                }
+                div.name-container {
+                    display: flex;
+                    flex-direction: column;
+                    span.name {
+                        font-size: 1.2em;
+                        margin: 0;
+                    }
+                    span.username {
+                        font-size: 0.9em;
+                        margin: 0;
+                    }
+                }
+            }
+
+            padding: 1em;
+            h5.question-title {
+                margin-top: 1em;
+                font-size: 1.3em;
+                font-weight: bold;
+                color: rgb(52, 58, 64);
+            }
+
+            p.question-body {
+                font-size: 0.8em;
+            }
+            div.stat {
+                font-size: 0.9em;
+                color: #234343;
+                span {
+                    a {
+                        text-decoration: none;
+                    }
+                }
+                span.attach-image-link {
+                    float: right;
+                }
+            }
+        }
+    }
+}

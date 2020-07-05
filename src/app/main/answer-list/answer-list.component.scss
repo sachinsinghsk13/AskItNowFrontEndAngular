@@ -1,0 +1,18 @@
+div.container {
+    div.row {
+        margin: 1em 0;
+        div.col {
+
+        }
+
+        div.col.answer-post-container {
+            background-color: #fff;
+            padding-top: 1em;
+            div.form-group {
+                textarea {
+                    resize: none;
+                }
+            }
+        }
+    }
+}
